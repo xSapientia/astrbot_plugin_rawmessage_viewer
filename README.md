@@ -38,7 +38,7 @@
 ```
 [core.event_bus:50]: [aiocqhttp]
 <tip>
-[aiocqhttp] RawMessage <Event, {'self_id': 1833235930, 'user_id': 2756189032, 'time': 1753108095, 'message_id': 1897220052, 'message_seq': 1897220052, 'real_id': 1897220052, 'real_seq': '172745', 'message_type': 'group', 'sender': {'user_id': 2756189032, 'nickname': '初见', 'card': '', 'role': 'member'}, 'font': 14, 'sub_type': 'normal', 'message': [{'type': 'text', 'data': {'text': '喵~'}}], 'message_format': 'array', 'post_type': 'message', 'group_id': 613342729}>
+[aiocqhttp] RawMessage <Event, {'self_id': , 'user_id': , 'time': , 'message_id': , 'message_seq': , 'real_id': , 'real_seq': '', 'message_type': 'group', 'sender': {'user_id': , 'nickname': '', 'card': '', 'role': 'member'}, 'font': 14, 'sub_type': 'normal', 'message': [{'type': 'text', 'data': {'text': ''}}], 'message_format': 'array', 'post_type': 'message', 'group_id': }>
 </tip>
 你好呀！
 ```
