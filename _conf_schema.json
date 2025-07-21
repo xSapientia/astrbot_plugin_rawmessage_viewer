@@ -1,25 +1,20 @@
 {
-  "enable_plugin": {
-    "description": "插件总开关",
-    "type": "bool",
-    "default": true
-  },
-  "show_raw_message": {
-    "description": "是否在消息前显示原始内容",
+  "enable_auto_insert": {
+    "description": "自动插入原始消息",
     "type": "bool",
     "default": true,
-    "hint": "开启后会在每条消息前插入原始消息内容"
+    "hint": "是否在每条消息前自动插入原始消息内容"
   },
-  "delete_data_on_uninstall": {
-    "description": "卸载时删除插件数据",
+  "enable_logging": {
+    "description": "启用日志记录",
+    "type": "bool",
+    "default": true,
+    "hint": "是否在后台记录插入原始消息后的完整内容"
+  },
+  "delete_config_on_uninstall": {
+    "description": "卸载时删除配置",
     "type": "bool",
     "default": false,
-    "hint": "启用后卸载插件时会删除所有相关配置和数据"
-  },
-  "max_message_length": {
-    "description": "原始消息最大显示长度",
-    "type": "int",
-    "default": 1000,
-    "hint": "超过此长度的消息会被截断，0表示不限制"
+    "hint": "卸载插件时是否删除配置文件和数据"
   }
 }
