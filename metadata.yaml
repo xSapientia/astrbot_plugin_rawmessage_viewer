@@ -1,5 +1,5 @@
-name: astrbot_plugin_raw_message_viewer
-desc: "查看和展示aiocqhttp平台原始消息内容的调试插件"
+name: astrbot_plugin_rawmessage_viewer
+desc: "查看和记录消息平台原始消息的插件，支持查看 napcat 通过 aiocqhttp 传递的原始消息内容"
 version: 0.0.1
 author: xSapientia
-repo: https://github.com/xSapientia/astrbot_plugin_raw_message_viewer
+repo: https://github.com/xSapientia/astrbot_plugin_rawmessage_viewer
